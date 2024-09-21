@@ -3,7 +3,7 @@ import axios from 'axios'
 class BackendService {
     constructor() {
         this.URL = ''
-        this.URL = 'http://localhost:4000'
+        this.URL = 'https://igram-backend.onrender.com'
     }
 
     get(url, params) {
